@@ -1,6 +1,6 @@
 ## get stdin by line
 
-```
+```golang
 var sc = bufio.NewScanner(os.Stdin)
 
 func nextLine() string {
@@ -15,7 +15,7 @@ func main() {
 
 ## auto type conversion by word
 
-```
+```golang
 func main() {
 	var num [2]int
 	fmt.Scan(&num[0], &num[1])
@@ -24,7 +24,7 @@ func main() {
 
 ## scanf
 
-```
+```golang
 func main() {
 	var num [2]int
 	fmt.Scanf("%d %d", &num[0], &num[1])
@@ -33,7 +33,7 @@ func main() {
 
 ## 2D array pattern
 
-```
+```golang
 	x := 10
 	y := 10
 	field := make([][]int64, y)

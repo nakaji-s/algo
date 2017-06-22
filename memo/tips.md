@@ -1,6 +1,6 @@
 ## get nth return value
 
-```
+```golang
 func make_nth (n int) (func(a... interface{}) interface{}) {
          return func(args... interface{}) interface{}{
                  return args[n]
