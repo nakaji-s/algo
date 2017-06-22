@@ -1,4 +1,4 @@
-* create 2dimension
+## create 2dimension
 
 ```
 field := make([][]bool, x)
@@ -7,5 +7,5 @@ for i := 0; i < x; i++ {
 }
 ```
 
-* sliceTricks
+## sliceTricks
 https://github.com/golang/go/wiki/SliceTricks
