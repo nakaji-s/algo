@@ -13,6 +13,19 @@ func main() {
 }
 ```
 
+## by word X times
+
+```golang
+func main() {
+	var count int
+	fmt.Scan(&count)
+	field := make([]int, count)
+
+	for i := 0; i < count; i++ {
+		fmt.Scan(&field[i])
+	}
+```
+
 ## auto type conversion by word
 
 ```golang
