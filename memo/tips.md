@@ -14,3 +14,21 @@ var third = make_nth(2)
 
 var dir string = first(path.Split(os.Args[0])).(string)
 ```
+
+## block gorutine
+
+```golang
+go func() {
+	for {
+		time.Sleep(time.Second)
+	}
+}()
+
+select{} // block here for ever
+```
+
+## print 3 and padding with 0
+
+```golang
+fmt.Printf("%0*d", 5, 3)
+```
