@@ -32,3 +32,10 @@ select{} // block here for ever
 ```golang
 fmt.Printf("%0*d", 5, 3)
 ```
+
+## map as sets
+
+```golang
+sets := make(map[string]struct{})
+sets["foo"] = struct{}{}
+```
