@@ -1,9 +1,9 @@
 ## create 2dimension
 
 ```golang
-field := make([][]bool, x)
-for i := 0; i < x; i++ {
-    field[i] = make([]bool, y)
+field := make([][]bool, y)
+for i := 0; i < y; i++ {
+    field[i] = make([]bool, x)
 }
 ```
 
