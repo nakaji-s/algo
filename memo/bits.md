@@ -9,3 +9,15 @@ func countBits(bits int64) int64 {
 	return (bits & 0x0000ffff) + (bits >> 16 & 0x0000ffff)
 }
 ```
+
+## to upper case
+
+``` golang
+'a' & '_'
+```
+
+## to lower case
+
+```golang
+'A' | ' '
+```
