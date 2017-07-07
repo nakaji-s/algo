@@ -21,3 +21,9 @@ func countBits(bits int64) int64 {
 ```golang
 'A' | ' '
 ```
+
+##  is 2 to the power of n
+
+```golang
+n & (n - 1) == 0
+```
