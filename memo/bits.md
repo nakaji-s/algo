@@ -27,3 +27,9 @@ func countBits(bits int64) int64 {
 ```golang
 n & (n - 1) == 0
 ```
+
+##  is (2 to the power of n) - 1
+
+```golang
+n & (n + 1) == 0
+```
