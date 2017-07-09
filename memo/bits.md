@@ -33,3 +33,12 @@ n & (n - 1) == 0
 ```golang
 n & (n + 1) == 0
 ```
+
+## abs except INT_MIN
+
+```golang
+func abs(n int) int {
+	sign := n >> 31
+	return (n ^ sign) - sign
+}
+```
