@@ -51,3 +51,29 @@ res2D := &Response2{
 res2B, _ := json.Marshal(res2D)
 fmt.Println(string(res2B))
 ```
+
+## From json to map
+
+```
+// map[num:6.13 strs:[a b]]
+byt := []byte(`{"num":6.13,"strs":["a","b"]}`)
+var dat map[string]interface{}
+if err := json.Unmarshal(byt, &dat); err != nil {
+    panic(err)
+}
+fmt.Println(dat)
+```
+
+## From json to struct
+
+```
+// {1 [apple peach]}
+type Response2 struct {
+    Page   int      `json:"page"`
+    Fruits []string `json:"fruits"`
+}
+str := `{"page": 1, "fruits": ["apple", "peach"]}`
+res := Response2{}
+json.Unmarshal([]byte(str), &res)
+fmt.Println(res)
+```
