@@ -77,3 +77,6 @@ res := Response2{}
 json.Unmarshal([]byte(str), &res)
 fmt.Println(res)
 ```
+
+## Auto create struct definition from json
+https://mholt.github.io/json-to-go/
