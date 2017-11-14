@@ -80,3 +80,6 @@ fmt.Println(res)
 
 ## Auto create struct definition from json
 https://mholt.github.io/json-to-go/
+
+## Tags
+https://golang.org/pkg/encoding/json/#Marshal
