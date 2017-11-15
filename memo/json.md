@@ -1,5 +1,3 @@
-package memo
-
 ## To json string
 
 ```
