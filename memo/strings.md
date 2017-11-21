@@ -9,3 +9,9 @@ func Reverse(s string) string {
 	return string(runes)
 }
 ```
+
+## count multibytes
+
+```golang
+len([]rune(s))
+```
